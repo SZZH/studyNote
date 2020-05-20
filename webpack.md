@@ -1,0 +1,49 @@
+## webpack
+### 核心属性
+- entry 入口文件路径，单入口chunk名为main，多入口时名为自己定义的名字
+
+- output 输出文件路径，必须为绝对路径，当前是多入口时，filename的文件名要写成变量
+  - **path**:path.join(__dirname,'xxx')
+  - **filename**:'xxx.js' /  '*[name]*.js'
+  - **publicPath**:'/'，静态文件的读取路径
+  
+- module 指定文件，使用loader 
+
+- alias 配置路径别名
+
+- plugin 功能扩展插件
+
+- chunk 代码片段
+
+- mode 优化模式，development/production
+
+- devServer 开发服务配置
+  - **contentBase**:path.join(__dirname,'')
+  - **port**:xxxx
+  - **host**:'localhost'
+  - **compress**:true/false(**是否压缩**)
+###基本配置
+  
+- **loader**
+  - style-loader,css-loader，打包并解释css文件
+  - file-loader，用于打包图片
+  - url-loader，内置file-loader，小于定值大小时，仅生成base64
+  - html-withimg-loader，html文件中加载图片
+  
+- **plugin**
+
+  - clean-webpack-plugin，重新打包时删除旧的文件
+
+  - html-webpack-plugin，打包html文件
+
+  - mini-css-extract-plugin,单独引入css文件，不再使用style-loader
+
+  - optimize-css-assets-webpack-plugin,压缩css样式
+
+  - terser-webpack-plugin,用来替换uglifyjs-webpack-plugin，以压缩js代码
+
+  - sourceMapDevToolPlugin，追踪代码错误
+
+    
+
+  - 
