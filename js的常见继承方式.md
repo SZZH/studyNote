@@ -27,7 +27,7 @@
 ```
 
 ### call继承
-- 通过使用call方法，讲父类的this指向到子类
+- 通过使用call方法，将父类的this指向到子类
 
 
 ```javascript
