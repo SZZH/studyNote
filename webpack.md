@@ -33,17 +33,11 @@
 - **plugin**
 
   - clean-webpack-plugin，重新打包时删除旧的文件
-
-  - html-webpack-plugin，打包html文件
-
+- html-webpack-plugin，打包html文件
   - mini-css-extract-plugin,单独引入css文件，不再使用style-loader
-
-  - optimize-css-assets-webpack-plugin,压缩css样式
-
+- optimize-css-assets-webpack-plugin,压缩css样式
   - terser-webpack-plugin,用来替换uglifyjs-webpack-plugin，以压缩js代码
+- sourceMapDevToolPlugin，追踪代码错误
+  
+- commons-chunks-plugin，代码分片，提取公共代码减少打包体积，[详情](https://www.jianshu.com/p/c0fce0c764ed)
 
-  - sourceMapDevToolPlugin，追踪代码错误
-
-    
-
-  - 
