@@ -30,4 +30,5 @@
   - sourceMapDevToolPlugin，追踪代码错误
   - commons-chunks-plugin，代码分片，提取公共代码减少打包体积，[详情](https://www.jianshu.com/p/c0fce0c764ed)，v4 中已经被移除使用 optimization.splitChunks 代替
   - happypack，开启多线程打包
+  - dllPlugin，代码更新时仅打包项目文件
 
