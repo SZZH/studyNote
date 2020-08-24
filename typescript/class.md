@@ -14,13 +14,17 @@
 
 1. ```typescript
    class Person {
+     	// 类中定义的实例属性必须初始化（可以通过修改 tsconfig 文件的配置项来解除此限制）
+     	name: string = 'xx'
+     
+     	// 或者
        name:string;
        constructor(name:string){
-           this.name = name;
+        this.name = name;
        }
    }
    ```
-
+   
 2. ```typescript
    class Person {
        constructor(public name:string){
@@ -38,7 +42,7 @@
    }
    ```
 
-### 存取器
+### 存取器 - 在读取或设置属性前做额外操作
 
 ```typescript
 class Person {
