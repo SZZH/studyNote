@@ -8,6 +8,8 @@
 - 搜索文件：`find 文件夹名 -name 文件名`
 - 修改或者移动目录 `mv `
 - 拷贝目录 `cp -r 要copy的目录 目标目录`
+- url命令行传输工具`curl`
+- top，查看当前进程
 
 [学习地址1](https://www.cnblogs.com/jichi/p/9954370.html)
 
