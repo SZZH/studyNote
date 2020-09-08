@@ -10,6 +10,7 @@
 - 拷贝目录 `cp -r 要copy的目录 目标目录`
 - url命令行传输工具`curl`
 - top，查看当前进程
+- sh，执行 shell 脚本，`sh -e 'echo 1'`，-c 用来指定执行的一小段脚本 
 
 [学习地址1](https://www.cnblogs.com/jichi/p/9954370.html)
 

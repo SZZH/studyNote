@@ -10,6 +10,7 @@
 - plugin 功能扩展插件
 - chunk 代码片段
 - mode 优化模式，development/production
+- externals 定义外部依赖
 - devServer 开发服务配置
   - **contentBase**:path.join(__dirname,'')
   - **port**:xxxx
